@@ -1,3 +1,4 @@
+package myPkg;
 
 public class MyInteger {
 	private int iValue;
@@ -72,11 +73,12 @@ public class MyInteger {
 		return isPrime(a.getiValue());
 	}
 
-	public boolean equals(int a){
-		
-		return a==iValue;
+	public boolean equals(int a) {
+
+		return a == iValue;
 	}
-	public boolean equals(MyInteger a){
+
+	public boolean equals(MyInteger a) {
 		return equals(a.getiValue());
 	}
 
